@@ -4,15 +4,16 @@
 public class GoGoTraining {
     public static void main (String args[]){
         System.out.println(" Termometr");
-        double c = 17;
-        double f = c * 1.8 +32;
-        double k = c+273;
+        //variables
+        double c = 17; //celsius
+        double f = c * 1.8 +32;//fahrenheit
+        double k = c+273;//kelvin
         System.out.println("c = "+c+" f = "+f+" k = "+k);
-        String formatted = String.format("%.2f in celcius %.2f in forengeit %.2f in kelvin ",c,f,k);
+        String formatted = String.format("%.2f in celsius %.2f in fahrenheit %.2f in kelvin ",c,f,k);
         System.out.println(formatted);
         //f to c = (f -32)/1.8
         System.out.println(" score and if statement");
-        int score = 55;
+        int score = 100;
         if (score >= 90 && score < 100){
             System.out.println(" grade A");
         }else if (score >= 80 && score <=89){

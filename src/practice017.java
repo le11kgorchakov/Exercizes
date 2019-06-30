@@ -52,7 +52,7 @@ public class practice017
         System.out.println("max = " + max);
 
         System.out.println("Ex 8.38");
-        for (i = 2; i<= 100000; i++)
+        for (i = 1; i<= 100000; i++)
         {
             int sum =0;
             for (j = 1; j <= i; j++)
